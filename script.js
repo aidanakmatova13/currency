@@ -47,7 +47,7 @@
 
 
 function get(amount){
-    const moneyList = [100,50,20,10]
+    const moneyList = [100,50,20,10,5,1]
     const result = []
 
     if (amount > 0){
@@ -64,3 +64,5 @@ function get(amount){
     return result
 }
 console.log(get(250))
+console.log(get(100))
+console.log(get(117))
